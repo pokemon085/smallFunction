@@ -1,0 +1,39 @@
+.member-stage {
+width: 100%;
+.loading-wrap {
+display: flex;
+width: 100%;
+padding: 0 0.71rem;
+.item-wrap {
+flex: 1 1 0;
+height: 17.14rem;
+padding: 0.71rem 0 0 0.71rem;
+            border-right: 1px solid rgb(194, 192, 192);
+
+.title {
+color: rgba(129, 139, 157, 1);
+                filter: blur(1px);
+
+}
+.number,
+.rate {
+width: 80%;
+height: 1.57rem;
+margin-top: 0.36rem;
+}
+}
+}
+.bottom-line {
+width: 100%;
+height: 0.07rem;
+        border-bottom: 1px solid rgba(220, 223, 230, 1);
+
+}
+}
+.update-time {
+margin: 0.29rem 1.07rem 0 0;
+line-height: 1.29rem;
+color: $text-2;
+font-size: 0.86rem;
+text-align: right;
+}
