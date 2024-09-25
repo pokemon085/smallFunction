@@ -5,6 +5,8 @@ import re
 def px_to_rem(value):
     base = 14
     rem_value = round((float(value) / base),2)
+    if rem_value.is_integer():
+        return str(int(rem_value))+'rem'
     return str(rem_value)+'rem'
 
 def lineHandler(css_string):
