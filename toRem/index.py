@@ -13,7 +13,7 @@ def lineHandler(css_string):
     if line.strip().startswith(('border-radius', 'border', 'filter')):
         return line
 
-    pattern = re.compile(r'(\d+)px')
+    pattern = re.compile(r'(\d+(\.\d+)?)px')
     return pattern.sub(lambda match: px_to_rem(match.group(1)), css_string)
 
 
