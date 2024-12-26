@@ -1,3 +1,4 @@
+# 這是一個將顏色轉換成 SCSS 變數的字典
 baseColor= {
   '#2665aa':'$primary-1',
   '#4890f7':'$primary-2',
@@ -18,6 +19,7 @@ baseColor= {
   '#fa8652':'$locked'
 }
 
+#背景色對應
 backgroundColor= {
     '#404e67':'$background-1',
     '#a7aebb':'$background-2',

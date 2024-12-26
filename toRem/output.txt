@@ -1,4 +1,0 @@
-.no-data-wrap {
-line-height: 1.22rem;
-font-size:0.71rem;
-}

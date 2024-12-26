@@ -1,6 +1,0 @@
-.no-data-wrap {
-    line-height: 17.13px;
-    font-size:10px;
-    color: #404e67;
-    border:1px solid #000;
-}
