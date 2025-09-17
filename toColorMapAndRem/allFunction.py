@@ -13,7 +13,7 @@ class ColorProcessor:
 
     def replace_color(self, match, property_name):
         color_code = f"#{match.group(1).lower()}"
-        if property_name in ['color']:
+        if property_name in ['color','fill']:
             # 查詢 baseColor 對照表
             return self.baseColor.get(color_code, color_code)
         elif property_name in ['background-color', 'background']:
@@ -30,6 +30,8 @@ class ColorProcessor:
             property_name = 'background-color'
         elif 'background:' in line:
             property_name = 'background'
+        elif 'fill' in line:
+            property_name = 'fill'
         else:
             return line  # 如果沒有找到相關屬性，返回原行
 
